@@ -43,7 +43,7 @@ For example:
 `docker exec my-dropbox /bin/dropbox.py status`
 
 > Selective Sync (exclude a folder from sync)
-`docker exec my-dropbox /bin/dropbox.py exclude add /root/Docker/excludeme
+`docker exec my-dropbox /bin/dropbox.py exclude add /root/Docker/excludeme`
 
 > See all commands
 `docker exec my-dropbox /bin/dropbox.py help`
