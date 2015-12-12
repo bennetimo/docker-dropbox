@@ -15,7 +15,8 @@ Run the docker container non-daemonised:
 
 The container will start running and output a link to connect it to your Dropbox account.
 
-```This computer isn't linked to any Dropbox account...
+```
+This computer isn't linked to any Dropbox account...
 Please visit https://www.dropbox.com/cli_link_nonce?nonce=xxx to link this device.
 ```
 
@@ -40,12 +41,15 @@ The [CLI][3] is available at /bin/dropbox.py
 For example:
 
 > View sync status
+
 `docker exec my-dropbox /bin/dropbox.py status`
 
 > Selective Sync (exclude a folder from sync)
+
 `docker exec my-dropbox /bin/dropbox.py exclude add /root/Docker/excludeme`
 
 > See all commands
+
 `docker exec my-dropbox /bin/dropbox.py help`
 
 You can also connect to the docker container to run commands:
