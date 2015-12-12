@@ -19,7 +19,7 @@ This computer isn't linked to any Dropbox account...
 Please visit https://www.dropbox.com/cli_link_nonce?nonce=xxx to link this device.
 ```
 
-4. Visit the link in a browser and sign it to your Dropbox account to complete the link. You should now see the output change to:
+Visit the link in a browser and sign it to your Dropbox account to complete the link. You should now see the output change to:
 `This computer is now linked to Dropbox. Welcome <Name>`
 
 Hit Ctrl^C to exit the interactive session.
