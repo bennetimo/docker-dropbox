@@ -14,7 +14,8 @@ docker-dropbox is a [Docker][1] container that runs the linux version of [Dropbo
 
 3. The container will start running and output a link to connect it to your Dropbox account.
 
-```This computer isn't linked to any Dropbox account...
+```
+This computer isn't linked to any Dropbox account...
 Please visit https://www.dropbox.com/cli_link_nonce?nonce=xxx to link this device.
 ```
 
