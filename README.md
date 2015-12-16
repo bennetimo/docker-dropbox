@@ -4,15 +4,11 @@ docker-dropbox is a [Docker][1] container that runs the linux version of [Dropbo
 
 ## Quick Start
 
-1. Clone, cd to the directory, then build the container with:
+1. Run the docker container non-daemonised:
 
- `docker build -t dropbox .`
+ `docker run -t --name my-dropbox bennetimo/docker-dropbox`
 
-2. Run the docker container non-daemonised:
-
- `docker run -t --name my-dropbox dropbox`
-
-3. The container will start running and output a link to connect it to your Dropbox account.
+2. The container will start running and output a link to connect it to your Dropbox account.
 
 ```
 This computer isn't linked to any Dropbox account...
