@@ -11,7 +11,7 @@ docker-dropbox is a [Docker][1] container that runs the linux version of [Dropbo
 
 2. The container will start running, but it is not yet linked to your dropbox account:
 
-    Run `docker logs dropbox` and you it will give you a link like:
+    Run `docker logs dropbox` and it will give you a link like:
 
     ```
     This computer isn't linked to any Dropbox account...
