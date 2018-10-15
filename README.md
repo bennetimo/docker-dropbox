@@ -1,5 +1,7 @@
 # docker-dropbox
 
+> **This container is no longer maintained. Please use something like [janeczku/dropbox](https://hub.docker.com/r/janeczku/dropbox/) instead**
+
 docker-dropbox is a [Docker][1] container that runs the linux version of [Dropbox][2].
 
 ### Quick Start
